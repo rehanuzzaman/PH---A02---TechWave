@@ -30,7 +30,7 @@
         </nav>
         <hr class="border-[#412567]">
         <section
-            class="gap-5 bg-cover bg-center h-[760px] flex flex-col items-center relative lg:h-[760px] h-auto pt-10 lg:pt-0"
+            class="gap-5 bg-cover bg-center flex flex-col items-center relative lg:h-[760px] h-auto pt-10 lg:pt-0"
             style="background-image: url(./assets/hero-bg.png);">
             <div class="relative w-full h-[180px] lg:h-auto">
                 <img class="absolute top-16 left-1/2 -translate-x-1/2 lg:top-35 lg:left-196 lg:translate-x-0 w-32 lg:w-auto animate-pulse drop-shadow-[0_0_20px_rgba(0,255,136,0.8)]"src="./assets/hero-circle.png" alt="">
@@ -215,20 +215,20 @@
                 Meet the Host
             </h1>
             <div class="flex items-center justify-center">
-                <div class="bg-[#351a55] rounded-3xl flex px-10 py-36 h-56 w-[1265px] mb-20 gap-10 items-center">
+                <div class="bg-[#351a55] rounded-3xl flex flex-col m-5 p-5 lg:flex-row lg:px-10 lg:py-36 lg:h-56 lg:w-[1265px] mb-20 lg:gap-10 items-center">
                     <img src="./assets/host.png" alt="Host">
                     <div class="flex flex-col gap-3">
-                        <h2 class="text-white text-2xl font-bold">
+                        <h2 class="text-white text-2xl font-bold text-center lg:text-left">
                             Alex Kumar
                         </h2>
-                        <p class="text-white opacity-65">
+                        <p class="text-white opacity-65 text-center lg:text-left">
                             Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech
                             industry for
                             over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex
                             shares insights from industry
                             leaders and practical advice for anyone looking to grow in tech.
                         </p>
-                        <div class="flex gap-5">
+                        <div class="flex gap-5 items-center justify-center lg:justify-start">
                             <div class="h-10 w-10 flex items-center justify-center border border-white rounded-full">
                                 <img src="./assets/linkedin.png" alt="LinkedIn" class="h-5 w-5 object-contain" />
                             </div>
@@ -250,33 +250,33 @@
             </div>
         </section>
     </main>
-    <footer class="gap-5 bg-cover bg-center flex flex-col items-center p-10 h-80 justify-center"
+    <footer class="flex flex-col items-center gap-2 bg-cover bg-no-repeat bg-center px-6 py-5 lg:h-80 justify-center"
         style="background-image: url(./assets/footer-bg.png);">
         <div class="text-center">
             <h1 class="text-4xl font-bold text-white">Tech<span
                     class="wave bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
             </h1>
         </div>
-        <div class="flex gap-5 items-center justify-center">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-2 lg:gap-2 items-center justify-center">
             <div class="flex gap-2 items-center justify-center">
                 <img class="h-5 w-5" src="./assets/spotify.png" alt="Spotify">
-                <p class="text-white">Spotify</p>
+                <p class="text-white text-xs">Spotify</p>
             </div>
             <div class="flex gap-2 items-center justify-center">
                 <img class="h-5 w-5" src="./assets/apple-podcast.png" alt="Spotify">
-                <p class="text-white">Apple Podcast</p>
+                <p class="text-white text-xs">Apple Podcast</p>
             </div>
             <div class="flex gap-2 items-center justify-center">
                 <img class="h-5 w-5" src="./assets/youtube-podcast.png" alt="Spotify">
-                <p class="text-white">YouTube</p>
+                <p class="text-white text-xs">YouTube</p>
             </div>
             <div class="flex gap-2 items-center justify-center">
                 <img class="h-5 w-5" src="./assets/twitter.png" alt="Spotify">
-                <p class="text-white">Twitter</p>
+                <p class="text-white text-xs">Twitter</p>
             </div>
         </div>
         <div class="text-white">
-            <small>Copyright 2026 &copy; TechWave - All right reserved.</small>
+            <small class="text-center text-xs">Copyright 2026 &copy; TechWave - All right reserved.</small>
         </div>
     </footer>
 </body>
