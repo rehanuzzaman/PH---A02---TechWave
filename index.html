@@ -12,35 +12,32 @@
 
 <body class="inter bg-[#1A0B2E]">
     <header>
-        <nav class="flex justify-between items-center pt-5 pb-5 pr-20 pl-20">
-            <div>
-                <h1 class="text-4xl font-bold text-white">Tech<span
-                        class="wave bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
-                </h1>
-            </div>
-            <div>
-                <ul class="flex gap-10">
-                    <li class="text-white">About</li>
-                    <li class="text-white">Episodes</li>
-                    <li class="text-white">Host</li>
-                </ul>
-            </div>
-            <div>
-                <button
-                    class="text-white bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-full text-sm">Subscribe
-                    <i class="fa-solid fa-arrow-right"></i></button>
-            </div>
+        <nav class="flex items-center py-5 px-5 lg:px-20">
+            <h1 class="text-4xl font-bold text-white">
+                Tech<span
+                    class="wave bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
+            </h1>
+            <ul class="hidden lg:flex flex-1 justify-center gap-10">
+                <li class="text-white hover:text-[#00FF88]">About</li>
+                <li class="text-white hover:text-[#00FF88]">Episodes</li>
+                <li class="text-white hover:text-[#00FF88]">Host</li>
+            </ul>
+            <button
+                class="hidden lg:inline-flex items-center text-white bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-5 py-2 rounded-full text-sm transition-transform duration-200 hover:scale-95">
+                Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <img class="lg:hidden h-6 w-6 ml-auto" src="./assets/hamburger-menu.png" alt="">
         </nav>
         <hr class="border-[#412567]">
-        <section class="gap-5 bg-cover bg-center h-[760px] flex flex-col items-center"
+        <section class=" gap-5 bg-cover bg-center h-[760px] flex flex-col items-center"
             style="background-image: url(./assets/hero-bg.png);">
             <div>
                 <div>
-                    <img class="absolute top-35 left-197 animate-pulse drop-shadow-[0_0_20px_rgba(0,255,136,0.8)]"
+                    <img class="absolute top-35 left-196 animate-pulse drop-shadow-[0_0_20px_rgba(0,255,136,0.8)]"
                         src="./assets/hero-circle.png" alt="">
                 </div>
                 <div>
-                    <img class="absolute top-55 left-226" src="./assets/microphone.png" alt="">
+                    <img class="absolute top-55 left-225" src="./assets/microphone.png" alt="">
                 </div>
                 <div>
                     <button class="absolute top-50 left-270 bg-[#00FF88] px-2 rounded-full">
@@ -85,8 +82,8 @@
                 <br>
                 Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
             </p>
-            <hr class="border-[#412567] w-[80%] mx-auto">
-            <div class="grid grid-cols-4 gap-10 px-28 py-12">
+            <hr class="border-[#412567] w-[70%] mx-auto">
+            <div class="grid grid-cols-4 gap-10 px-64 py-12">
                 <div class="flex flex-col items-center">
                     <h2 class="text-6xl text-[#00FF88] font-bold">150k+</h2>
                     <p class="text-white">MONTHLY LISTENERS</p>
@@ -110,7 +107,7 @@
                 Why Choose TechWave
             </h1>
             <div class="grid grid-cols-3 grid-rows-3 gap-5 px-52 py-10">
-                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 col-span-1 row-span-2 justify-center">
+                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 col-span-1 row-span-2 justify-center transition-transform duration-200 hover:scale-95">
                     <img class="w-10" src="./assets/headphone.png" alt="headphone">
                     <h5 class="text-white text-l font-bold">Premium Audio Quality</h5>
                     <p class="text-white opacity-65">
@@ -118,21 +115,21 @@
                         engineering. Every episode is mastered for optimal listening across all devices and platforms.
                     </p>
                 </div>
-                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 col-span-2 row-span-1 justify-center">
+                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 col-span-2 row-span-1 justify-center transition-transform duration-200 hover:scale-95">
                     <img class="w-10" src="./assets/device.png" alt="headphone">
                     <h5 class="text-white text-l font-bold">Mobile Friendly</h5>
                     <p class="text-white opacity-65">
                         Listen on the go with seamless mobile experience and offline downloads.
                     </p>
                 </div>
-                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 col-span-2 row-span-1 justify-center">
+                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 col-span-2 row-span-1 justify-center transition-transform duration-200 hover:scale-95">
                     <img class="w-10" src="./assets/location.png" alt="headphone">
                     <h5 class="text-white text-l font-bold">Global Community</h5>
                     <p class="text-white opacity-65">
                         Connect with tech enthusiasts from over 120 countries worldwide.
                     </p>
                 </div>
-                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 col-span-2 row-span-1 justify-center">
+                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 col-span-2 row-span-1 justify-center transition-transform duration-200 hover:scale-95">
                     <img class="w-10" src="./assets/zap-fast.png" alt="headphone">
                     <h5 class="text-white text-l font-bold">Exclusive Interviews</h5>
                     <p class="text-white opacity-65">
@@ -141,7 +138,7 @@
                         failures, and success strategies.
                     </p>
                 </div>
-                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 justify-center">
+                <div class="flex flex-col gap-2 bg-[#351a55] rounded-2xl p-8 justify-center transition-transform duration-200 hover:scale-95">
                     <img class="w-10" src="./assets/resource.png" alt="headphone">
                     <h5 class="text-white text-l font-bold">Rich Resources</h5>
                     <p class="text-white opacity-65">
